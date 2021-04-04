@@ -9,10 +9,10 @@ fn main() {
     let producer: BaseProducer = ClientConfig::new()
         .set("bootstrap.servers", "localhost:9092")
         //for auth
-        .set("security.protocol", "SASL_SSL")
+        /*.set("security.protocol", "SASL_SSL")
         .set("sasl.mechanisms", "PLAIN")
         .set("sasl.username", "<update>")
-        .set("sasl.password", "<update>")
+        .set("sasl.password", "<update>")*/
         .create()
         .expect("invalid producer config");
 

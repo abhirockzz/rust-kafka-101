@@ -8,10 +8,11 @@ use rdkafka::{
 fn main() {
     let producer: ThreadedProducer<ProduceCallbackLogger> = ClientConfig::new()
         .set("bootstrap.servers", "localhost:9092")
-        .set("security.protocol", "SASL_SSL")
+        //for auth
+        /*.set("security.protocol", "SASL_SSL")
         .set("sasl.mechanisms", "PLAIN")
         .set("sasl.username", "<update>")
-        .set("sasl.password", "<update>")
+        .set("sasl.password", "<update>")*/
         .create_with_context(ProduceCallbackLogger {})
         .expect("invalid producer config");
 
