@@ -1,0 +1,3 @@
+# Getting started with Kafka and Rust
+
+This repo contains code for [this two-part blog series](https://itnext.io/getting-started-with-kafka-and-rust-part-1-e0074961ec6b) to help you get started with Rust and Kafka. It was also presented at [Kafka Summit](https://www.kafka-summit.org/sessions/using-kafka-with-rust-from-zero-to-one) and [here are the slides](https://speakerdeck.com/abhirockzz/using-kafka-with-rust-from-zero-to-one-kafka-summit-europe-2021) in case you're interested.
